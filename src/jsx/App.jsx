@@ -321,14 +321,28 @@ class App extends Component {
         <div className={style.lap_times}>
           <table>
             <tbody>
-              <tr className={style.heading}><th>Name</th><th>Grid</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
-              <tr><th><img src={FI} /> 1 Teemo </th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td className={style.position}>1</td></tr>
-              <tr><th><img src={GB} /> 2 Simon </th><td>4</td><td><span className={style.lost}>5</span></td><td><span className={style.gained}>3</span></td><td>3</td><td>3</td><td><span className={style.gained}>2</span></td><td>2</td><td>2</td><td>2</td><td>2</td><td className={style.position}><span className={style.gained}>2</span></td></tr>
-              <tr><th><img src={CH} /> 3 Julien </th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td><span className={style.lost}>3</span></td><td>3</td><td>3</td><td>3</td><td>3</td><td className={style.position}><span className={style.lost}>3</span></td></tr>
-              <tr><th><img src={CH} /> 4 Steven </th><td>5</td><td><span className={style.gained}>3</span></td><td><span className={style.lost}>4</span></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td className={style.position}><span className={style.gained}>4</span></td></tr>
-              <tr><th><img src={EC} /> 5 David </th><td>3</td><td><span className={style.lost}>4</span></td><td><span className={style.lost}>6</span></td><td>6</td><td>6</td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td>5</td><td>5</td><td className={style.position}><span className={style.lost}>5</span></td></tr>
-              <tr><th><img src={AT} /> 6 Dinyar </th><td>6</td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td>7</td><td><span className={style.gained}>6</span></td><td>6</td><td>6</td><td>6</td><td className={style.position}>6</td></tr>
-              <tr><th><img src={MX} /> 7 Helena </th><td>7</td><td><span className={style.gained}>6</span></td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td><span className={style.lost}>6</span></td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td className={style.position}>7</td></tr>
+              <tr className={style.heading}><th>Name</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
+              <tr><th><img src={FI} /> 1 Teemo </th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td className={style.diff}>49.806</td></tr>
+              <tr><th><img src={GB} /> 2 Simon </th><td>+3.317</td><td>+4.393</td><td>+3.840</td><td>+4.859</td><td>+3.766</td><td>+2.329</td><td>+1.471</td><td>+0.307</td><td>+0.375</td><td className={style.diff}>+2.309</td></tr>
+              <tr><th><img src={CH} /> 3 Julien </th><td>+2.065</td><td>+2.414</td><td>+3.312</td><td>+4.473</td><td>+9.231</td><td>+9.462</td><td>+9.699</td><td>+9.622</td><td>+9.088</td><td className={style.diff}>+9.844</td></tr>
+              <tr><th><img src={CH} /> 4 Steven </th><td>+2.725</td><td>+8.314</td><td>+8.176</td><td>+15.408</td><td>+15.931</td><td>+16.496</td><td>+16.901</td><td>+16.869</td><td>+17.637</td><td className={style.diff}>+18.268</td></tr>
+              <tr><th><img src={EC} /> 5 David </th><td>+3.078</td><td>+23.647</td><td>+23.769</td><td>+23.789</td><td>+23.419</td><td>+23.654</td><td>+24.119</td><td>+24.746</td><td>+25.619</td><td className={style.diff}>+26.973</td></tr>
+              <tr><th><img src={AT} /> 6 Dinyar </th><td>+21.942</td><td>+24.483</td><td>+25.784</td><td>+26.122</td><td>+25.692</td><td>+27.289</td><td>+28.879</td><td>+29.303</td><td>+31.008</td><td className={style.diff}>+32.214</td></tr>
+              <tr><th><img src={MX} /> 7 Helena </th><td>+8.777</td><td>+14.041</td><td>+19.990</td><td>+23.217</td><td>+25.050</td><td>+28.626</td><td>+30.856</td><td>+32.220</td><td>+33.741</td><td className={style.diff}>+37.440</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div className={style.lap_times}>
+          <table>
+            <tbody>
+              <tr className={style.heading}><th>Name</th><th>Grid</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th><th>Diff</th></tr>
+              <tr><th><img src={FI} /> 1 Teemo </th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td className={style.position}>1</td><td className={style.diff}></td></tr>
+              <tr><th><img src={GB} /> 2 Simon </th><td>4</td><td><span className={style.lost}>5</span></td><td><span className={style.gained}>3</span></td><td>3</td><td>3</td><td><span className={style.gained}>2</span></td><td>2</td><td>2</td><td>2</td><td>2</td><td className={style.position}><span className={style.gained}>2</span></td><td className={style.diff}>+2.309</td></tr>
+              <tr><th><img src={CH} /> 3 Julien </th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td><span className={style.lost}>3</span></td><td>3</td><td>3</td><td>3</td><td>3</td><td className={style.position}><span className={style.lost}>3</span></td><td className={style.diff}>+9.844</td></tr>
+              <tr><th><img src={CH} /> 4 Steven </th><td>5</td><td><span className={style.gained}>3</span></td><td><span className={style.lost}>4</span></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td className={style.position}><span className={style.gained}>4</span></td><td className={style.diff}>+18.268</td></tr>
+              <tr><th><img src={EC} /> 5 David </th><td>3</td><td><span className={style.lost}>4</span></td><td><span className={style.lost}>6</span></td><td>6</td><td>6</td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td>5</td><td>5</td><td className={style.position}><span className={style.lost}>5</span></td><td className={style.diff}>+26.973</td></tr>
+              <tr><th><img src={AT} /> 6 Dinyar </th><td>6</td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td>7</td><td><span className={style.gained}>6</span></td><td>6</td><td>6</td><td>6</td><td className={style.position}>6</td><td className={style.diff}>+32.214</td></tr>
+              <tr><th><img src={MX} /> 7 Helena </th><td>7</td><td><span className={style.gained}>6</span></td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td><span className={style.lost}>6</span></td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td className={style.position}>7</td><td className={style.diff}>+37.440</td></tr>
             </tbody>
           </table>
         </div>
