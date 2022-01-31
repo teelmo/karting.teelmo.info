@@ -312,6 +312,7 @@ class App extends Component {
         </div>
         <div className={style.meta}>
           <img src="http://karting.teelmo.info/img/track.png" />
+          <div><strong>Length:< /strong>640 Meters / <strong>Width:</strong> 7 - 8 Meters / <strong>Topping:</strong> Asphalt / <strong>Layout:</strong> Marc Surrer 1999</div>
         </div>
       </div>
     );
