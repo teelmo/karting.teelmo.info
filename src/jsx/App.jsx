@@ -310,6 +310,9 @@ class App extends Component {
             </tbody>
           </table>
         </div>
+        <div className={style.meta}>
+          <img src="http://karting.teelmo.info/img/track.png" />
+        </div>
       </div>
     );
   }
