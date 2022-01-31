@@ -297,7 +297,7 @@ class App extends Component {
         <div className={style.lap_times}>
           <table>
             <thead>
-              <tr><th>Name</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Lap 10</th></tr>
+              <tr><th>Name</th><th>Lap 1*</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Lap 10</th></tr>
             </thead>
             <tbody>
               <tr><th>1 Teemo</th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td><span className={style.best}>49.806</span></td></tr>
