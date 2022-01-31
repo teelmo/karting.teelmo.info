@@ -132,7 +132,7 @@ class App extends Component {
         .attr('y', -25)
         .attr('x', -10)
         .style('text-anchor', 'end')
-        .text('Seconds');
+        .text('Relative to the winner');
 
       // Create the lines with current data.
       const lines = svg.selectAll('lines').data(slices).enter().append('g');
