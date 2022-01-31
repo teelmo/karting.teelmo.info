@@ -319,7 +319,7 @@ class App extends Component {
             3 David, -2<br />
             4 Simon, +2<br />
             5 Steven, +1<br />
-            6 Diyar, +-<br />
+            6 Dinyar, +-<br />
             7 Helena, +-<br />
           </div>
           <div><img src="http://karting.teelmo.info/img/track.png" /></div>
