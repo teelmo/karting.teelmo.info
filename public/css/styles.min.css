@@ -1,0 +1,144 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.app___2khK2 {
+  height: 100vh;
+}
+.app___2khK2 .tooltip___MFNHN {
+  background: #000;
+  border: 0;
+  color: #fff;
+  font-family: 'Orbitron';
+  font-size: 14pt;
+  font-weight: 600;
+  left: 0;
+  padding: 8px 12px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+}
+.app___2khK2 .chart_container___3Jzlm {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto auto;
+  max-width: calc(100vh - 4px);
+  display: block;
+}
+.app___2khK2 .chart_container___3Jzlm .axis___3Jp_c text {
+  fill: #2b2929;
+  font-family: 'Orbitron';
+  font-weight: 600;
+}
+.app___2khK2 .chart_container___3Jzlm .axis___3Jp_c.yaxis___2Krk0 text {
+  font-size: 10pt;
+}
+.app___2khK2 .chart_container___3Jzlm .axis___3Jp_c.yaxis___2Krk0 g {
+  display: none;
+}
+.app___2khK2 .chart_container___3Jzlm .axis___3Jp_c.xaxis___MfCnB text {
+  font-size: 8pt;
+}
+.app___2khK2 .chart_container___3Jzlm .axis___3Jp_c image {
+  filter: drop-shadow(0px 0px 1px #000);
+}
+.app___2khK2 .chart_container___3Jzlm path.line_interactivity___3SZ5K,
+.app___2khK2 .chart_container___3Jzlm path.line___1JHCa {
+  fill: none;
+}
+.app___2khK2 .chart_container___3Jzlm path.line_interactivity___3SZ5K {
+  cursor: pointer;
+}
+.app___2khK2 .chart_container___3Jzlm .dot___1MBWA {
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.8));
+}
+.app___2khK2 .chart_container___3Jzlm .dot_text___2pF49 {
+  filter: drop-shadow(0px 0px 1px #fff);
+  font-family: 'Orbitron';
+  letter-spacing: 0.5px;
+}
+.app___2khK2 .chart_container___3Jzlm .grid___3zkE4 path {
+  display: none;
+}
+.app___2khK2 .chart_container___3Jzlm .grid___3zkE4 line {
+  stroke-dasharray: 2;
+  stroke: #dddddd;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject {
+  overflow: visible;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 {
+  font-family: 'Orbitron';
+  overflow: visible;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h1 {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 18pt;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3 {
+  color: #000;
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 0 0 15px -27px;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3 .position___1AoVA {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  width: 22px;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3 .name___3S6H7 {
+  color: #fff;
+  display: inline-block;
+  padding: 2px 8px;
+  text-transform: uppercase;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3 .team___2Ipw9 {
+  margin-left: 5px;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3.redbull___1v1d- .name___3S6H7 {
+  background-color: #000000;
+}
+.app___2khK2 .chart_container___3Jzlm foreignObject .title_container___28dn4 h3.mercedes___2KI6v .name___3S6H7 {
+  background-color: #CF081F;
+}
+/* General styles */
+.clearfix___1yHqr {
+  zoom: 1;
+}
+.clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both___a0DL_ {
+  clear: both;
+}
+.hidden___1aMNf {
+  display: none;
+}
+.nowrap___2n1o8 {
+  white-space: nowrap;
+}
+

@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  height: 100vh;
+  .tooltip {
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-family: 'Orbitron';
+    font-size: 14pt;
+    font-weight: 600;
+    left: 0;
+    padding: 8px 12px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 2;
+    .tooltip_name {
+    }
+  }
+  .chart_container {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto auto;
+    max-width: calc(100vh - 4px);
+    display: block;
+    .axis {
+      text {
+        fill: #2b2929;
+        font-family: 'Orbitron';
+        font-weight: 600;
+      }
+      &.yaxis {
+        text {
+          font-size: 10pt;
+        }
+        g {
+          display: none;
+        }
+      }
+      &.xaxis {
+        text {
+          font-size: 8pt;
+        }
+      }
+      image {
+        // https://stackoverflow.com/questions/13217669/svg-image-with-a-border-stroke
+        filter: drop-shadow(0px 0px 1px #000);
+      }
+    }
+    path.line_interactivity,
+    path.line {
+      fill: none;
+    }
+    path.line_interactivity {
+      cursor: pointer;
+    }
+    .dot {
+      filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.8));
+    }
+    .dot_text {
+      filter: drop-shadow(0px 0px 1px #fff);
+      font-family: 'Orbitron';
+      letter-spacing: 0.5px;
+    }
+    .grid {
+      path {
+        display: none;
+      }
+      line {
+        stroke-dasharray: 2;
+        stroke: #dddddd;
+      }
+    }
+    foreignObject {
+      overflow: visible;
+      .title_container {
+        font-family: 'Orbitron';
+        overflow: visible;
+        h1 {
+          background-color: #000;
+          color: #fff;
+          display: inline-block;
+          font-size: 18pt;
+          font-weight: 600;
+          margin: 0 0 10px 0;
+          padding: 5px 10px;
+          text-transform: uppercase;
+        }
+        h3 {
+          color: #000;
+          font-size: 12pt;
+          font-weight: 600;
+          margin: 0 0 15px -27px;
+          .position {
+            display: inline-block;
+            margin-right: 5px;
+            text-align: center;
+            width: 22px;
+          }
+          .name {
+            color: #fff;
+            display: inline-block;
+            padding: 2px 8px;
+            text-transform: uppercase;
+          }
+          .team {
+            margin-left: 5px;
+          }
+          &.redbull {
+            .name {
+              background-color: #000000;
+            }
+          }
+          &.mercedes {
+            .name {
+              background-color: #CF081F;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import 'basics.less';

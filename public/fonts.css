@@ -1,0 +1,29 @@
+/* === Orbitron - regular */
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./font/Orbitron-Regular.eot");
+	src: local('Orbitron'),
+		url("./font/Orbitron-Regular.eot") format("embedded-opentype"),
+		url("./font/Orbitron-Regular.woff2") format("woff2"),
+		url("./font/Orbitron-Regular.woff") format("woff"),
+		url("./font/Orbitron-Regular.ttf") format("truetype"),
+		url("./font/Orbitron-Regular.svg") format("svg");
+}
+
+/* === Orbitron - 600 */
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("./font/Orbitron-SemiBold.eot");
+	src: local('Orbitron'),
+		url("./font/Orbitron-SemiBold.eot") format("embedded-opentype"),
+		url("./font/Orbitron-SemiBold.woff2") format("woff2"),
+		url("./font/Orbitron-SemiBold.woff") format("woff"),
+		url("./font/Orbitron-SemiBold.ttf") format("truetype"),
+		url("./font/Orbitron-SemiBold.svg") format("svg");
+}
