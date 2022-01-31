@@ -22,8 +22,39 @@ body {
     .tooltip_name {
     }
   }
+  .lap_times {
+    vertical-align: middle;
+    margin: auto auto;
+    max-width: calc(100vh - 100px);
+    display: block;
+    padding-bottom: 40px;
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+      font-family: 'Orbitron';
+      font-size: 8pt;
+      width: 100%;
+      td,
+      th {
+        padding: 3px 0;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%/11;
+      }
+      thead {
+        th {
+          border-bottom: 1px solid #000;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      span.best {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
   .chart_container {
-    display: table-cell;
     vertical-align: middle;
     margin: auto auto;
     max-width: calc(100vh - 4px);
