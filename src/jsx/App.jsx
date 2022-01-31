@@ -4,6 +4,9 @@ import style from './../styles/styles.less';
 // https://d3js.org/
 import * as d3 from 'd3';
 
+// https://github.com/Tarkeasy/round-flags
+import { MX,FI,CH,EC,AT,GB } from 'round-flags';
+
 let interval1,
     interval2;
 
@@ -17,8 +20,8 @@ const title = '<h1>Olten GP</h1>';
 const max_y_axis_value = 90,
       max_y_axis_step = 5,
       title_offset = 1,
-      first_driver = '<h3 class="' + style.redbull + '"><span class="' + style.position + '">1</span><span class="' + style.name + '">Teemo, FI</span><span class="' + style.team + '">, #3</span></h3>',
-      second_driver = '<h3 class="' + style.mercedes + '"><span class="' + style.position + '">2</span><span class="' + style.name + '">Simon, UK</span><span class="' + style.team + '">, #19</span></h3>',
+      first_driver = '<h3 class="' + style.redbull + '"><span class="' + style.position + '">1</span><span class="' + style.name + '">Teemo</span><span class="' + style.team + '"> Finland</span></h3>',
+      second_driver = '<h3 class="' + style.mercedes + '"><span class="' + style.position + '">2</span><span class="' + style.name + '">Simon</span><span class="' + style.team + '"> Great Britain</span></h3>',
       title_html = '<div class="' + style.title_container + '">' + title + '<div>' + first_driver + '</div><div>' + second_driver + '</div></div>',
       races = ['First Lap','Lap 2','Lap 3','Lap 4','Lap 5','Lap 6','Lap 7','Lap 8','Lap 9','Final Lap'];
 
@@ -300,13 +303,13 @@ class App extends Component {
               <tr><th>Name</th><th>Lap 1*</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Lap 10</th><th>Total</th></tr>
             </thead>
             <tbody>
-              <tr><th>1 Teemo</th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td><span className={style.best}>49.806</span></td><td className={style.total}>510.933</td></tr>
-              <tr><th>2 Simon</th><td>57.018</td><td>52.965</td><td>50.228</td><td>51.548</td><td>50.260</td><td><span className={style.best}>49.301</span></td><td>49.583</td><td>49.689</td><td>50.910</td><td>51.740</td><td className={style.total}>513.242</td></tr>
-              <tr><th>3 Julien</th><td>55.766</td><td>52.238</td><td>51.679</td><td>51.690</td><td>56.111</td><td>50.969</td><td>50.678</td><td>50.776</td><td><span className={style.best}>50.308</span></td><td>50.562</td><td className={style.total}>520.777</td></tr>
-              <tr><th>4 Steven</th><td>56.426</td><td>57.478</td><td>50.643</td><td>57.761</td><td>51.876</td><td>51.303</td><td>50.846</td><td>50.821</td><td>51.61</td><td><span className={style.best}>50.437</span></td><td className={style.total}>529.201</td></tr>
-              <tr><th>5 David</th><td>56.779</td><td>72.458</td><td>50.903</td><td><span className={style.best}>50.549</span></td><td>50.983</td><td>50.973</td><td>50.906</td><td>51.480</td><td>51.715</td><td>51.16</td><td className={style.total}>537.906</td></tr>
-              <tr><th>6 Dinyar</th><td>75.643</td><td>54.430</td><td>52.082</td><td><span className={style.best}>50.867</span></td><td>50.923</td><td>52.335</td><td>52.031</td><td>51.277</td><td>52.547</td><td>51.012</td><td className={style.total}>543.147</td></tr>
-              <tr><th>7 Helena</th><td>62.478</td><td>57.153</td><td>56.73</td><td>53.756</td><td>53.186</td><td>54.314</td><td>52.671</td><td><span className={style.best}>52.217</span></td><td>52.363</td><td>53.505</td><td className={style.total}>548.373</td></tr>
+              <tr><th><img src={FI} /> 1 Teemo </th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td><span className={style.best}>49.806</span></td><td className={style.total}>510.933</td></tr>
+              <tr><th><img src={GB} /> 2 Simon </th><td>57.018</td><td>52.965</td><td>50.228</td><td>51.548</td><td>50.260</td><td><span className={style.best}>49.301</span></td><td>49.583</td><td>49.689</td><td>50.910</td><td>51.740</td><td className={style.total}>513.242</td></tr>
+              <tr><th><img src={CH} /> 3 Julien </th><td>55.766</td><td>52.238</td><td>51.679</td><td>51.690</td><td>56.111</td><td>50.969</td><td>50.678</td><td>50.776</td><td><span className={style.best}>50.308</span></td><td>50.562</td><td className={style.total}>520.777</td></tr>
+              <tr><th><img src={CH} /> 4 Steven </th><td>56.426</td><td>57.478</td><td>50.643</td><td>57.761</td><td>51.876</td><td>51.303</td><td>50.846</td><td>50.821</td><td>51.61</td><td><span className={style.best}>50.437</span></td><td className={style.total}>529.201</td></tr>
+              <tr><th><img src={EC} /> 5 David </th><td>56.779</td><td>72.458</td><td>50.903</td><td><span className={style.best}>50.549</span></td><td>50.983</td><td>50.973</td><td>50.906</td><td>51.480</td><td>51.715</td><td>51.16</td><td className={style.total}>537.906</td></tr>
+              <tr><th><img src={AT} /> 6 Dinyar </th><td>75.643</td><td>54.430</td><td>52.082</td><td><span className={style.best}>50.867</span></td><td>50.923</td><td>52.335</td><td>52.031</td><td>51.277</td><td>52.547</td><td>51.012</td><td className={style.total}>543.147</td></tr>
+              <tr><th><img src={MX} /> 7 Helena </th><td>62.478</td><td>57.153</td><td>56.73</td><td>53.756</td><td>53.186</td><td>54.314</td><td>52.671</td><td><span className={style.best}>52.217</span></td><td>52.363</td><td>53.505</td><td className={style.total}>548.373</td></tr>
             </tbody>
           </table>
         </div>
