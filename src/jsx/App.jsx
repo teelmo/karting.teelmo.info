@@ -314,7 +314,7 @@ class App extends Component {
           <div>*Lap 1 time includes the time each driver took from the grid to get to the finish line</div>
           <div><strong>Average speed for winner</strong> 45 km/h</div>
           <div>
-            <strong>Starting positions</strong><br />
+            <strong>Starting positions, change</strong><br />
             1 Teemo, +-<br />
             2 Julien, -1<br />
             3 David, -2<br />
