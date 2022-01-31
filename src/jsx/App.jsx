@@ -302,10 +302,8 @@ class App extends Component {
         </div>
         <div className={style.lap_times}>
           <table>
-            <thead>
-              <tr><th>Name</th><th>Lap 1*</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Lap 10</th><th>Avg</th><th>Total</th></tr>
-            </thead>
             <tbody>
+              <tr className={style.heading}><th>Name</th><th>Lap 1*</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Lap 10</th><th>Avg</th><th>Total</th></tr>
               <tr><th><img src={FI} /> 1 Teemo </th><td><span className={style.worst}>53.701</span></td><td><span className={style.worst}>51.889</span></td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td><span className={style.best}>49.806</span></td><td className={style.avg}>51.093</td><td className={style.total}>510.933</td></tr>
               <tr><th><img src={GB} /> 2 Simon </th><td><span className={style.worst}>57.018</span></td><td><span className={style.worst}>52.965</span></td><td>50.228</td><td>51.548</td><td>50.260</td><td><span className={style.best}>49.301</span></td><td>49.583</td><td>49.689</td><td>50.910</td><td>51.740</td><td className={style.avg}>51.229</td><td className={style.total}>513.242</td></tr>
               <tr><th><img src={CH} /> 3 Julien </th><td><span className={style.worst}>55.766</span></td><td>52.238</td><td>51.679</td><td>51.690</td><td><span className={style.worst}>56.111</span></td><td>50.969</td><td>50.678</td><td>50.776</td><td><span className={style.best}>50.308</span></td><td>50.562</td><td className={style.avg}>52.046</td><td className={style.total}>520.777</td></tr>
@@ -322,10 +320,8 @@ class App extends Component {
         </div>
         <div className={style.lap_times}>
           <table>
-            <thead>
-              <tr><th>Name</th><th>Grid</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
-            </thead>
             <tbody>
+              <tr className={style.heading}><th>Name</th><th>Grid</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
               <tr><th><img src={FI} /> 1 Teemo </th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td className={style.position}>1</td></tr>
               <tr><th><img src={GB} /> 2 Simon </th><td>4</td><td><span className={style.lost}>5</span></td><td><span className={style.gained}>3</span></td><td>3</td><td>3</td><td><span className={style.gained}>2</span></td><td>2</td><td>2</td><td>2</td><td>2</td><td className={style.position}><span className={style.gained}>2</span></td></tr>
               <tr><th><img src={CH} /> 3 Julien </th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td><span className={style.lost}>3</span></td><td>3</td><td>3</td><td>3</td><td>3</td><td className={style.position}><span className={style.lost}>3</span></td></tr>

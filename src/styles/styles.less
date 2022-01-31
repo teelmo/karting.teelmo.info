@@ -70,8 +70,18 @@ body {
       border-spacing: 0;
       font-family: 'Orbitron';
       width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      thead,
+      tbody {
+        display: table;
+        width: 100%;
+      }
       td {
         font-size: 7pt;
+        margin-left: 4px solid #fff;
+        margin-right: 4px solid #fff;
         text-align: right;
         &.position,
         &.avg,
@@ -82,7 +92,7 @@ body {
       }
       td,
       th {
-        padding: 3px 0;
+        padding: 3px 2px;
         text-transform: uppercase;
         width: 100%/13;
       }
@@ -97,11 +107,11 @@ body {
           width: 16px;
         }
       }
-      thead {
+      tr.heading {
         th {
           border-bottom: 1px solid #000;
           margin: 0;
-          padding: 0;
+          padding: 0 2px;
           text-align: right;
           &:first-child {
             text-align: left;

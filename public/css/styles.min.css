@@ -70,9 +70,19 @@ body {
   border-spacing: 0;
   font-family: 'Orbitron';
   width: 100%;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.app___2khK2 .lap_times___2oTHu table thead,
+.app___2khK2 .lap_times___2oTHu table tbody {
+  display: table;
+  width: 100%;
 }
 .app___2khK2 .lap_times___2oTHu table td {
   font-size: 7pt;
+  margin-left: 4px solid #fff;
+  margin-right: 4px solid #fff;
   text-align: right;
 }
 .app___2khK2 .lap_times___2oTHu table td.position___1AoVA,
@@ -83,7 +93,7 @@ body {
 }
 .app___2khK2 .lap_times___2oTHu table td,
 .app___2khK2 .lap_times___2oTHu table th {
-  padding: 3px 0;
+  padding: 3px 2px;
   text-transform: uppercase;
   width: 7.69230769%;
 }
@@ -98,13 +108,13 @@ body {
   vertical-align: -4px;
   width: 16px;
 }
-.app___2khK2 .lap_times___2oTHu table thead th {
+.app___2khK2 .lap_times___2oTHu table tr.heading___2rReE th {
   border-bottom: 1px solid #000;
   margin: 0;
-  padding: 0;
+  padding: 0 2px;
   text-align: right;
 }
-.app___2khK2 .lap_times___2oTHu table thead th:first-child {
+.app___2khK2 .lap_times___2oTHu table tr.heading___2rReE th:first-child {
   text-align: left;
 }
 .app___2khK2 .lap_times___2oTHu table span.best___3I6dy {
