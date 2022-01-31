@@ -21,6 +21,23 @@ body {
   top: 0;
   z-index: 2;
 }
+.app___2khK2 .meta___3gcNx {
+  vertical-align: middle;
+  margin: auto auto;
+  max-width: calc(100vh - 100px);
+  display: block;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Orbitron';
+}
+.app___2khK2 .meta___3gcNx div {
+  margin-bottom: 20px;
+}
+.app___2khK2 .meta___3gcNx div img {
+  margin: auto auto;
+  max-width: 600px;
+  width: 100%;
+}
 .app___2khK2 .lap_times___2oTHu {
   vertical-align: middle;
   margin: auto auto;
@@ -35,17 +52,29 @@ body {
   font-size: 8pt;
   width: 100%;
 }
+.app___2khK2 .lap_times___2oTHu table td {
+  text-align: right;
+}
+.app___2khK2 .lap_times___2oTHu table td.total___1H-OV {
+  font-weight: 600;
+}
 .app___2khK2 .lap_times___2oTHu table td,
 .app___2khK2 .lap_times___2oTHu table th {
   padding: 3px 0;
-  text-align: left;
   text-transform: uppercase;
-  width: 9.09090909%;
+  width: 8.33333333%;
+}
+.app___2khK2 .lap_times___2oTHu table th {
+  text-align: left;
 }
 .app___2khK2 .lap_times___2oTHu table thead th {
   border-bottom: 1px solid #000;
   margin: 0;
   padding: 0;
+  text-align: right;
+}
+.app___2khK2 .lap_times___2oTHu table thead th:first-child {
+  text-align: left;
 }
 .app___2khK2 .lap_times___2oTHu table span.best___3I6dy {
   background-color: #000;
