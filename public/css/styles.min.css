@@ -38,6 +38,16 @@ body {
   max-width: 600px;
   width: 100%;
 }
+.app___2khK2 .meta___3gcNx div span.best___3I6dy {
+  background-color: #000;
+  color: #fff;
+  padding: 1px 3px;
+}
+.app___2khK2 .meta___3gcNx div span.worst___3gZk2 {
+  background-color: #ccc;
+  color: #000;
+  padding: 1px 3px;
+}
 .app___2khK2 .lap_times___2oTHu {
   vertical-align: middle;
   margin: auto auto;
@@ -46,33 +56,36 @@ body {
   padding-bottom: 40px;
 }
 .app___2khK2 .lap_times___2oTHu table {
-  border-spacing: 0;
   border-collapse: collapse;
+  border-spacing: 0;
   font-family: 'Orbitron';
-  font-size: 8pt;
   width: 100%;
 }
 .app___2khK2 .lap_times___2oTHu table td {
+  font-size: 7pt;
   text-align: right;
 }
+.app___2khK2 .lap_times___2oTHu table td.avg___Yq73G,
 .app___2khK2 .lap_times___2oTHu table td.total___1H-OV {
+  font-size: 8pt;
   font-weight: 600;
 }
 .app___2khK2 .lap_times___2oTHu table td,
 .app___2khK2 .lap_times___2oTHu table th {
   padding: 3px 0;
   text-transform: uppercase;
-  width: 8.33333333%;
+  width: 7.69230769%;
 }
 .app___2khK2 .lap_times___2oTHu table th {
+  font-size: 8pt;
   text-align: left;
   white-space: nowrap;
 }
 .app___2khK2 .lap_times___2oTHu table th img {
-  vertical-align: -4px;
   filter: drop-shadow(0px 0px 1px #000);
-  width: 16px;
   height: 16px;
+  vertical-align: -4px;
+  width: 16px;
 }
 .app___2khK2 .lap_times___2oTHu table thead th {
   border-bottom: 1px solid #000;
@@ -86,6 +99,11 @@ body {
 .app___2khK2 .lap_times___2oTHu table span.best___3I6dy {
   background-color: #000;
   color: #fff;
+  padding: 1px 3px;
+}
+.app___2khK2 .lap_times___2oTHu table span.worst___3gZk2 {
+  background-color: #ccc;
+  color: #000;
   padding: 1px 3px;
 }
 .app___2khK2 .chart_container___3Jzlm {

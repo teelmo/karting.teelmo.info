@@ -37,6 +37,16 @@ body {
         max-width: 600px;
         width: 100%;
       }
+      span.best {
+        background-color: #000;
+        color: #fff;
+        padding: 1px 3px;
+      }
+      span.worst {
+        background-color: #ccc;
+        color: #000;
+        padding: 1px 3px;
+      }
     }
   }
   .lap_times {
@@ -46,14 +56,16 @@ body {
     display: block;
     padding-bottom: 40px;
     table {
-      border-spacing: 0;
       border-collapse: collapse;
+      border-spacing: 0;
       font-family: 'Orbitron';
-      font-size: 8pt;
       width: 100%;
       td {
+        font-size: 7pt;
         text-align: right;
+        &.avg,
         &.total {
+          font-size: 8pt;
           font-weight: 600;
         }
       }
@@ -61,16 +73,17 @@ body {
       th {
         padding: 3px 0;
         text-transform: uppercase;
-        width: 100%/12;
+        width: 100%/13;
       }
       th {
+        font-size: 8pt;
         text-align: left;
         white-space: nowrap;
         img {
-          vertical-align: -4px;
           filter: drop-shadow(0px 0px 1px #000);
-          width: 16px;
           height: 16px;
+          vertical-align: -4px;
+          width: 16px;
         }
       }
       thead {
@@ -87,6 +100,11 @@ body {
       span.best {
         background-color: #000;
         color: #fff;
+        padding: 1px 3px;
+      }
+      span.worst {
+        background-color: #ccc;
+        color: #000;
         padding: 1px 3px;
       }
     }
