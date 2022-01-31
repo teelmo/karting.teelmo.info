@@ -297,6 +297,9 @@ class App extends Component {
     return (
       <div className={style.app}>
         <div className={style.chart_container}></div>
+        <div className={style.meta}>
+          <div><strong>Average speed for winner</strong> 45 km/h</div>
+        </div>
         <div className={style.lap_times}>
           <table>
             <thead>
@@ -316,7 +319,25 @@ class App extends Component {
         <div className={style.meta}>
           <div><span className={style.best}>Best lap</span> <span className={style.worst}>Worst two laps</span></div>
           <div>*Lap 1 time includes the time each driver took from the grid to get to the finish line</div>
-          <div><strong>Average speed for winner</strong> 45 km/h</div>
+        </div>
+        <div className={style.lap_times}>
+          <table>
+            <thead>
+              <tr><th>Name</th><th>Grid</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
+            </thead>
+            <tbody>
+              <tr><th><img src={FI} /> 1 Teemo </th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td className={style.position}>1</td></tr>
+              <tr><th><img src={GB} /> 2 Simon </th><td>4</td><td><span className={style.lost}>5</span></td><td><span className={style.gained}>3</span></td><td>3</td><td>3</td><td><span className={style.gained}>2</span></td><td>2</td><td>2</td><td>2</td><td>2</td><td className={style.position}><span className={style.gained}>2</span></td></tr>
+              <tr><th><img src={CH} /> 3 Julien </th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td><span className={style.lost}>3</span></td><td>3</td><td>3</td><td>3</td><td>3</td><td className={style.position}><span className={style.lost}>3</span></td></tr>
+              <tr><th><img src={CH} /> 4 Steven </th><td>5</td><td><span className={style.gained}>3</span></td><td><span className={style.lost}>4</span></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td className={style.position}><span className={style.gained}>4</span></td></tr>
+              <tr><th><img src={EC} /> 5 David </th><td>3</td><td><span className={style.lost}>4</span></td><td><span className={style.lost}>6</span></td><td>6</td><td>6</td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td>5</td><td>5</td><td className={style.position}><span className={style.lost}>5</span></td></tr>
+              <tr><th><img src={AT} /> 6 Dinyar </th><td>6</td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td>7</td><td><span className={style.gained}>6</span></td><td>6</td><td>6</td><td>6</td><td className={style.position}>6</td></tr>
+              <tr><th><img src={MX} /> 7 Helena </th><td>7</td><td><span className={style.gained}>6</span></td><td><span className={style.gained}>5</span></td><td>5</td><td>5</td><td><span className={style.lost}>6</span></td><td><span className={style.lost}>7</span></td><td>7</td><td>7</td><td>7</td><td className={style.position}>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div className={style.meta}>
+          <div><span className={style.gained}>Gained position</span> <span className={style.lost}>Lost position</span></div>
           <div>
             <strong>Starting positions, change</strong><br />
             1 Teemo, +-<br />

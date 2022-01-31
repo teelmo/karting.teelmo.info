@@ -48,6 +48,16 @@ body {
   color: #000;
   padding: 1px 3px;
 }
+.app___2khK2 .meta___3gcNx div span.gained___2HZ7C {
+  background-color: rgba(51, 184, 100, 0.5);
+  color: #000;
+  padding: 1px 3px;
+}
+.app___2khK2 .meta___3gcNx div span.lost___1cgZ1 {
+  background-color: rgba(236, 26, 40, 0.5);
+  color: #000;
+  padding: 1px 3px;
+}
 .app___2khK2 .lap_times___2oTHu {
   vertical-align: middle;
   margin: auto auto;
@@ -65,6 +75,7 @@ body {
   font-size: 7pt;
   text-align: right;
 }
+.app___2khK2 .lap_times___2oTHu table td.position___1AoVA,
 .app___2khK2 .lap_times___2oTHu table td.avg___Yq73G,
 .app___2khK2 .lap_times___2oTHu table td.total___1H-OV {
   font-size: 8pt;
@@ -103,6 +114,16 @@ body {
 }
 .app___2khK2 .lap_times___2oTHu table span.worst___3gZk2 {
   background-color: #ccc;
+  color: #000;
+  padding: 1px 3px;
+}
+.app___2khK2 .lap_times___2oTHu table span.gained___2HZ7C {
+  background-color: rgba(51, 184, 100, 0.5);
+  color: #000;
+  padding: 1px 3px;
+}
+.app___2khK2 .lap_times___2oTHu table span.lost___1cgZ1 {
+  background-color: rgba(236, 26, 40, 0.5);
   color: #000;
   padding: 1px 3px;
 }
