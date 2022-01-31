@@ -301,12 +301,12 @@ class App extends Component {
             </thead>
             <tbody>
               <tr><th>1 Teemo</th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td><span className={style.best}>49.806</span></td></tr>
-              <tr><th>2 Simon</th><td>56.069</td><td>52.965</td><td>50.228</td><td>51.548</td><td>50.260</td><td><span className={style.best}>49.301</span></td><td>49.583</td><td>49.689</td><td>50.910</td><td>51.740</td></tr>
-              <tr><th>3 Julien</th><td> 55.448</td><td>52.238</td><td>51.679</td><td>51.690</td><td>56.111</td><td>50.969</td><td>50.678</td><td>50.776</td><td><span className={style.best}>50.308</span></td><td>50.562</td></tr>
-              <tr><th>4 Steven</th><td> 54.563</td><td>57.478</td><td>50.643</td><td>57.761</td><td>51.876</td><td>51.303</td><td>50.846</td><td>50.821</td><td>51.61</td><td><span className={style.best}>50.437</span></td></tr>
-              <tr><th>5 David</th><td>55.476</td><td>72.458</td><td>50.903</td><td><span className={style.best}>50.549</span></td><td>50.983</td><td>50.973</td><td>50.906</td><td>51.480</td><td>51.715</td><td>51.16</td></tr>
-              <tr><th>6 Dinyar</th><td>74.186</td><td>54.430</td><td>52.082</td><td><span className={style.best}>50.867</span></td><td>50.923</td><td>52.335</td><td>52.031</td><td>51.277</td><td>52.547</td><td>51.012</td></tr>
-              <tr><th>7 Helena</th><td>60.051</td><td>57.153</td><td>56.73</td><td>53.756</td><td>53.186</td><td>54.314</td><td>52.671</td><td><span className={style.best}>52.217</span></td><td>52.363</td><td>53.505</td></tr>
+              <tr><th>2 Simon</th><td>57.018</td><td>52.965</td><td>50.228</td><td>51.548</td><td>50.260</td><td><span className={style.best}>49.301</span></td><td>49.583</td><td>49.689</td><td>50.910</td><td>51.740</td></tr>
+              <tr><th>3 Julien</th><td>55.766</td><td>52.238</td><td>51.679</td><td>51.690</td><td>56.111</td><td>50.969</td><td>50.678</td><td>50.776</td><td><span className={style.best}>50.308</span></td><td>50.562</td></tr>
+              <tr><th>4 Steven</th><td>56.426</td><td>57.478</td><td>50.643</td><td>57.761</td><td>51.876</td><td>51.303</td><td>50.846</td><td>50.821</td><td>51.61</td><td><span className={style.best}>50.437</span></td></tr>
+              <tr><th>5 David</th><td>56.779</td><td>72.458</td><td>50.903</td><td><span className={style.best}>50.549</span></td><td>50.983</td><td>50.973</td><td>50.906</td><td>51.480</td><td>51.715</td><td>51.16</td></tr>
+              <tr><th>6 Dinyar</th><td>75.643</td><td>54.430</td><td>52.082</td><td><span className={style.best}>50.867</span></td><td>50.923</td><td>52.335</td><td>52.031</td><td>51.277</td><td>52.547</td><td>51.012</td></tr>
+              <tr><th>7 Helena</th><td>62.478</td><td>57.153</td><td>56.73</td><td>53.756</td><td>53.186</td><td>54.314</td><td>52.671</td><td><span className={style.best}>52.217</span></td><td>52.363</td><td>53.505</td></tr>
             </tbody>
           </table>
         </div>
