@@ -16,7 +16,7 @@ const title = '<h1>The battle 2022</h1>';
 
 const max_y_axis_value = 90,
       max_y_axis_step = 5,
-      title_offset = 2,
+      title_offset = 1,
       first_driver = '<h3 class="' + style.redbull + '"><span class="' + style.position + '">1</span><span class="' + style.name + '">Teemo</span><span class="' + style.team + '">Porcha</span></h3>',
       second_driver = '<h3 class="' + style.mercedes + '"><span class="' + style.position + '">2</span><span class="' + style.name + '">Simon</span><span class="' + style.team + '">Rolls Royce</span></h3>',
       title_html = '<div class="' + style.title_container + '">' + title + '<div>' + first_driver + '</div><div>' + second_driver + '</div></div>',
@@ -225,7 +225,7 @@ class App extends Component {
         .attr('height', 200)
         .attr('text-anchor', 'middle')
         .attr('width', 450)
-        .attr('x', xScale(1))
+        .attr('x', xScale(0.7))
         .attr('y', yScale(max_y_axis_value - title_offset))
         .html(title_html);
     });

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "sync-gh-pages": "npm run build && git commit -am 'Production build' && git subtree push --prefix public origin gh-pages"
+    "sync-prod": "ssh teelmo@teelmo.info git -C /var/www/karting.teelmo.info pull"
   },
   "keywords": [],
   "author": "",
