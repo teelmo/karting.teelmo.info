@@ -322,7 +322,7 @@ class App extends Component {
           <table>
             <tbody>
               <tr className={style.heading}><th>Name</th><th>Lap 1</th><th>Lap 2</th><th>Lap 3</th><th>Lap 4</th><th>Lap 5</th><th>Lap 6</th><th>Lap 7</th><th>Lap 8</th><th>Lap 9</th><th>Finish</th></tr>
-              <tr><th><img src={FI} /> 1 Teemo </th><td>53.701</td><td>51.889</td><td>50.781</td><td>50.529</td><td>51.353</td><td>50.738</td><td>50.441</td><td>50.853</td><td>50.842</td><td className={style.diff}>49.806</td></tr>
+              <tr><th><img src={FI} /> 1 Teemo </th><td>53.701</td><td>105.59</td><td>156.371</td><td>206.9</td><td>258.253</td><td>308.991</td><td>359.432</td><td>410.285</td><td>461.127</td><td className={style.diff}>510.933</td></tr>
               <tr><th><img src={GB} /> 2 Simon </th><td>+3.317</td><td>+4.393</td><td>+3.840</td><td>+4.859</td><td>+3.766</td><td>+2.329</td><td>+1.471</td><td>+0.307</td><td>+0.375</td><td className={style.diff}>+2.309</td></tr>
               <tr><th><img src={CH} /> 3 Julien </th><td>+2.065</td><td>+2.414</td><td>+3.312</td><td>+4.473</td><td>+9.231</td><td>+9.462</td><td>+9.699</td><td>+9.622</td><td>+9.088</td><td className={style.diff}>+9.844</td></tr>
               <tr><th><img src={CH} /> 4 Steven </th><td>+2.725</td><td>+8.314</td><td>+8.176</td><td>+15.408</td><td>+15.931</td><td>+16.496</td><td>+16.901</td><td>+16.869</td><td>+17.637</td><td className={style.diff}>+18.268</td></tr>
