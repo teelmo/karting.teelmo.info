@@ -269,7 +269,7 @@ function App() {
 
   useEffect(() => {
     createChart();
-  });
+  }, []);
 
   return (
     <div className="app">
