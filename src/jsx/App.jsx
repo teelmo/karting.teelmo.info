@@ -772,7 +772,7 @@ function App() {
           7 Helena, +-
           <br />
         </div>
-        <div><img alt="Race track" src="http://karting.teelmo.info/img/track.png" /></div>
+        <div><img alt="Race track" src="http://karting.teelmo.info/assets/img/track.png" /></div>
         <div>
           <strong>Length</strong>
           {' '}
